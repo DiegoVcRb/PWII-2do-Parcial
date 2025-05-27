@@ -16,3 +16,41 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 color: rgb(102, 5, 120);
 }
+
+.container{
+    
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+
+    gap: 2em;
+    padding: 0%;
+    border-radius: 1rem;
+    max-width: 1440px;
+    justify-content: center;
+
+}
+
+.pokemon{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding: 2em;
+    border-radius: 2em;
+
+
+}
+
+.pokemon-image{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(157, 37, 1);
+}
+
+.pokemon-name{
+    text-align: center;
+    font-weight: 2em;
+    color: rgb(127, 75, 6);
+}
